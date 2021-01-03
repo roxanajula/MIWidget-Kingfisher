@@ -1,3 +1,7 @@
+Based on [MIWidget by MindInventory](https://github.com/Mindinventory).
+Used to show a use case with [Kingfisher](https://github.com/onevcat/Kingfisher) in Widgets.
+
+
 # MIWidget ✓
 
 Widget's main purpose is to display a small amount of timely, personally relevant information that people can view without opening your app. With iOS 14, Apple is replacing the old widgets with all new ones that are more dynamic, can pull in more information. You can create widgets in small, medium, or large sizes and can put widgets anywhere on a home screen. For more update read on [Medium](https://medium.com/mindful-engineering/introducing-ios-14-widget-extension-1abaa198d183)
