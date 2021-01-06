@@ -6,6 +6,7 @@ target 'GreetingExtension' do
   use_frameworks!
   # Pods for GreetingExtension
   pod 'Kingfisher/SwiftUI'
+  pod 'URLImage'
 
 end
 

@@ -10,4 +10,5 @@ import SwiftUI
 
 struct GreetingEntryModel: TimelineEntry {
     let date: Date
+    let url = URL(string: "https://picsum.photos/1080/620")!
 }

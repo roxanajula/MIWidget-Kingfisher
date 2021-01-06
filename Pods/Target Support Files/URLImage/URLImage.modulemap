@@ -1,0 +1,6 @@
+framework module URLImage {
+  umbrella header "URLImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

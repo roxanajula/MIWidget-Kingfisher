@@ -2,17 +2,39 @@ PODS:
   - Kingfisher/Core (5.15.8)
   - Kingfisher/SwiftUI (5.15.8):
     - Kingfisher/Core
+  - URLImage (2.2.0):
+    - URLImage/Common (= 2.2.0)
+    - URLImage/DownloadManager (= 2.2.0)
+    - URLImage/FileIndex (= 2.2.0)
+    - URLImage/ImageDecoder (= 2.2.0)
+    - URLImage/Log (= 2.2.0)
+    - URLImage/PlainDatabase (= 2.2.0)
+    - URLImage/RemoteContentView (= 2.2.0)
+  - URLImage/Common (2.2.0)
+  - URLImage/DownloadManager (2.2.0):
+    - URLImage/Log
+  - URLImage/FileIndex (2.2.0):
+    - URLImage/Common
+    - URLImage/Log
+    - URLImage/PlainDatabase
+  - URLImage/ImageDecoder (2.2.0)
+  - URLImage/Log (2.2.0)
+  - URLImage/PlainDatabase (2.2.0)
+  - URLImage/RemoteContentView (2.2.0)
 
 DEPENDENCIES:
   - Kingfisher/SwiftUI
+  - URLImage
 
 SPEC REPOS:
   trunk:
     - Kingfisher
+    - URLImage
 
 SPEC CHECKSUMS:
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  URLImage: d58d7fa82e466c7576f2aea4f2113251a7a38ee9
 
-PODFILE CHECKSUM: f5bf016b015c102505dd3a8a5b850a5df5bc6e52
+PODFILE CHECKSUM: 4a589712703e06c9307710c96009382ab4353f47
 
 COCOAPODS: 1.10.0
